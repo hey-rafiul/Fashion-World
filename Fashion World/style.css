@@ -298,7 +298,7 @@ a{
     margin-bottom: 150px !important;
 }
 
-.aboutBox {
+.aboutBox1 {
     width: 40%;
     font-family: myriad pro;
 }
@@ -409,4 +409,112 @@ footer p{
     text-align: center;
     color: #f2f2f2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*Mobile view*/
+
+@media (max-width: 1080px){
+    .logo a{
+        font-size: 1.7rem;
+        margin-left: -75px;
+    }
+    .searchArea {
+        right: 25px;
+        top: 43px;
+        width: 150px;
+        height: 35px;
+    }
+
+    .section1 img {
+    height: 200px;
+    margin-top: -150px;
+    margin-left: 70px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 25px rgb(105, 82, 240);
+    }
+
+    .section1Button {
+    position: absolute;
+    font-size: 3rem;
+    top: 75%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+    }
+
+    .section1Button h1, h2 {
+    font-weight: bold;
+    margin: 0px;
+    line-height: 1px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    }
+
+    .btn {
+    width: 110px;
+    height: 35px;
+    margin-top: 37px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    }
+
+    .iconArea {
+    position: fixed;
+    left: 9px;
+    }
+
+    .productSection {
+    width: 80%;
+    margin-top: -35px;
+    margin-left: 70px;
+    }
+
+    .about{
+        width: 74%;
+        height: 600px;
+        padding-bottom: 230px;
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+
+    .aboutBox h1{
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutBox img {
+        width: 190%;
+        height: 100%;
+        margin-top: 800px;
+        margin-right: 50px;
+        margin-left: -120px;
+    }
+
+    .Notification {
+        width: 130%;
+        height: 230%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 50px solid rgba(0, 0, 0, 0.03);
+        justify-content: center;
+    }
+
+    .Notification h1 {
+    font-size: 1rem;
+    margin-left: 2px;
+    }
+
+    .NotificationInput {
+        width: 290px;
+        margin-left: 2px;
+    }
+
+    footer{
+        width: 450px;
+    }
 }
